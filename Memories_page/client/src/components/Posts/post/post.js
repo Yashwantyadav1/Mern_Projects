@@ -1,5 +1,5 @@
 import React from 'react'
-import useStyles from './styles';
+import useStyles from './style';
 
 function post() {
   const classes=useStyles();
