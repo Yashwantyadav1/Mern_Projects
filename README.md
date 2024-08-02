@@ -7,4 +7,4 @@ npm start
 # cd edunify-backend
 npm install<br>
 *install all dependencies by see routes file see.<br>
-node index,js<br>Set ypur env file.
+node index,js<br>Set your env file.
