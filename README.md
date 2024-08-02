@@ -6,5 +6,5 @@ npm start
 
 # cd edunify-backend
 npm install<br>
-*install all dependencies by see package.json file see.<br>
+*install all dependencies by see routes file see.<br>
 node index,js
