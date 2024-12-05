@@ -1,0 +1,40 @@
+.state-filter {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .state-filter h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .state-filter select {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .colleges-list {
+    margin-top: 20px;
+  }
+  
+  .colleges-list ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .colleges-list li {
+    margin-bottom: 10px;
+  }
+  
+  .colleges-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+  }
+  
+  .colleges-list a:hover {
+    text-decoration: underline;
+  }
+  
