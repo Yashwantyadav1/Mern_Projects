@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // Parse URL-encoded request
 
 // Health Check Endpoint
 app.get('/', (req, res) => {
-  res.status(200).send('RealCounselling CSE Backend is Running');
+  res.status(200).send('Backend is Running');
 });
 
 // Enquiry API Routes

@@ -7,7 +7,7 @@ import Home from './components/Home';
 import About from './components/About';
 import RegisterPage from './components/RegisterPage';
 import SuccessStories from './components/SuccessStories';
-import EnquiryForm from './components/EnquiryForm'; // Import EnquiryForm
+import EnquiryForm from './components/EnquiryForm';// Import EnquiryForm
 
 
 
@@ -19,17 +19,17 @@ const App = () => {
     <Router>
       <div className="app-container">
         <Header />
-        <StateFilter/>
+        {/* <StateFilter/> */}
         <div className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/register" element={<RegisterPage />} />
-            <Route path="/success-story" element={<SuccessStories />} />
-            <Route path="/enquiry" element={<EnquiryForm />} /> {/* Enquiry form route */}
+            <Route path="/success" element={<SuccessStories />} />
+            <Route path="/enquiry" element={<EnquiryForm />}  /> {/* Enquiry form route */}
           </Routes>
         </div>
-        
+        <StateFilter/>
         <Footer />
       </div>
     </Router>
